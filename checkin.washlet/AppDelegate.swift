@@ -1,11 +1,3 @@
-//
-//  AppDelegate.swift
-//  checkin.washlet
-//
-//  Created by 和田 俊輔 on 2016/03/31.
-//  Copyright © 2016年 com.jellyfish85. All rights reserved.
-//
-
 import UIKit
 
 @UIApplicationMain
