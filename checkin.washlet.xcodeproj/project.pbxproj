@@ -14,6 +14,7 @@
 		B9E8E4C81CACAE0A0050A8FE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B9E8E4C61CACAE0A0050A8FE /* LaunchScreen.storyboard */; };
 		B9E8E4D31CACAE0A0050A8FE /* checkin_washletTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9E8E4D21CACAE0A0050A8FE /* checkin_washletTests.swift */; };
 		B9E8E4DE1CACAE0A0050A8FE /* checkin_washletUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9E8E4DD1CACAE0A0050A8FE /* checkin_washletUITests.swift */; };
+		B9E8E4EC1CAE52930050A8FE /* NextViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9E8E4EB1CAE52930050A8FE /* NextViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		B9E8E4D91CACAE0A0050A8FE /* checkin.washletUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = checkin.washletUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B9E8E4DD1CACAE0A0050A8FE /* checkin_washletUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = checkin_washletUITests.swift; sourceTree = "<group>"; };
 		B9E8E4DF1CACAE0A0050A8FE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B9E8E4EB1CAE52930050A8FE /* NextViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NextViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				B9E8E4C41CACAE0A0050A8FE /* Assets.xcassets */,
 				B9E8E4C61CACAE0A0050A8FE /* LaunchScreen.storyboard */,
 				B9E8E4C91CACAE0A0050A8FE /* Info.plist */,
+				B9E8E4EB1CAE52930050A8FE /* NextViewController.swift */,
 			);
 			path = checkin.washlet;
 			sourceTree = "<group>";
@@ -260,6 +263,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B9E8E4C01CACAE0A0050A8FE /* ViewController.swift in Sources */,
+				B9E8E4EC1CAE52930050A8FE /* NextViewController.swift in Sources */,
 				B9E8E4BE1CACAE0A0050A8FE /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -487,6 +491,7 @@
 				B9E8E4E41CACAE0A0050A8FE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B9E8E4E51CACAE0A0050A8FE /* Build configuration list for PBXNativeTarget "checkin.washletTests" */ = {
 			isa = XCConfigurationList;
@@ -495,6 +500,7 @@
 				B9E8E4E71CACAE0A0050A8FE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B9E8E4E81CACAE0A0050A8FE /* Build configuration list for PBXNativeTarget "checkin.washletUITests" */ = {
 			isa = XCConfigurationList;
@@ -503,6 +509,7 @@
 				B9E8E4EA1CACAE0A0050A8FE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
