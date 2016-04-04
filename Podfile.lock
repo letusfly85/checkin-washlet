@@ -1,0 +1,15 @@
+PODS:
+  - LTMorphingLabel (0.2.0)
+  - YALSideMenu (1.2.0)
+
+DEPENDENCIES:
+  - LTMorphingLabel
+  - YALSideMenu
+
+SPEC CHECKSUMS:
+  LTMorphingLabel: 490aa8e079f9247c7f3130f7d4b1be1d66677377
+  YALSideMenu: da4847fb57b724482040751bf02b9b97f7b89819
+
+PODFILE CHECKSUM: 5bd5e6e7d26a7f98362abeb1bd58b3a877294366
+
+COCOAPODS: 1.0.0.beta.6
