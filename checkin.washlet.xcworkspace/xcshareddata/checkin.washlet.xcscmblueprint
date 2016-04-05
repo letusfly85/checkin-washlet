@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "7AD1831C80C726CD62A759D1307DF3A414D53346",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "7AD1831C80C726CD62A759D1307DF3A414D53346" : 0,
+    "4027BD72832B3AA0DA50347C7336C0388DD29861" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "D602064D-A1D9-475C-B576-1BDED322CB4E",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "7AD1831C80C726CD62A759D1307DF3A414D53346" : "checkin.washlet\/",
+    "4027BD72832B3AA0DA50347C7336C0388DD29861" : "Liquid-Gauge\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "checkin.washlet",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "checkin.washlet.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/Loadex\/Liquid-Gauge.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "4027BD72832B3AA0DA50347C7336C0388DD29861"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/letusfly85\/checkin-washlet.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "7AD1831C80C726CD62A759D1307DF3A414D53346"
+    }
+  ]
+}

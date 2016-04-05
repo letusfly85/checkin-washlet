@@ -1,15 +1,18 @@
 PODS:
+  - GaugeKit (0.3.2)
   - LTMorphingLabel (0.2.0)
   - YALSideMenu (1.2.0)
 
 DEPENDENCIES:
+  - GaugeKit
   - LTMorphingLabel
   - YALSideMenu
 
 SPEC CHECKSUMS:
+  GaugeKit: 4d5c3491521ed2d6e2f83cac5f51d0cd09db8989
   LTMorphingLabel: 490aa8e079f9247c7f3130f7d4b1be1d66677377
   YALSideMenu: da4847fb57b724482040751bf02b9b97f7b89819
 
-PODFILE CHECKSUM: 5bd5e6e7d26a7f98362abeb1bd58b3a877294366
+PODFILE CHECKSUM: c5f32229d198b594ff9ffade3ad033bb179d6c20
 
 COCOAPODS: 1.0.0.beta.6

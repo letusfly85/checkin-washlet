@@ -101,16 +101,37 @@
                                     <action selector="changeText:" destination="DVP-1t-edu" eventType="touchUpInside" id="agA-gK-W3V"/>
                                 </connections>
                             </button>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="OH0-uT-HlU" customClass="Gauge" customModule="GaugeKit">
+                                <rect key="frame" x="186" y="202" width="240" height="128"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="startColor">
+                                        <color key="value" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="endColor">
+                                        <color key="value" red="1" green="0.13138395159999999" blue="0.26581749290000001" alpha="1" colorSpace="calibratedRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                            <slider opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="mfV-s4-3FM">
+                                <rect key="frame" x="265" y="406" width="118" height="31"/>
+                                <connections>
+                                    <action selector="changeColor:" destination="DVP-1t-edu" eventType="valueChanged" id="rEt-Xj-X5Y"/>
+                                </connections>
+                            </slider>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <connections>
+                        <outlet property="gauge_in" destination="OH0-uT-HlU" id="2vn-3W-FJm"/>
+                        <outlet property="gauge_mid" destination="OH0-uT-HlU" id="9ET-1y-YS6"/>
+                        <outlet property="gauge_out" destination="OH0-uT-HlU" id="VMA-oo-1CD"/>
                         <outlet property="washletDetail" destination="StK-ci-idT" id="pAk-V7-8PW"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4JR-de-CVf" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-414" y="-512"/>
+            <point key="canvasLocation" x="-477" y="-379"/>
         </scene>
     </scenes>
 </document>

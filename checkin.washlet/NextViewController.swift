@@ -1,5 +1,6 @@
 import UIKit
 import LTMorphingLabel
+import GaugeKit
 
 class NextViewController: UIViewController, LTMorphingLabelDelegate {
 
@@ -20,6 +21,16 @@ class NextViewController: UIViewController, LTMorphingLabelDelegate {
         }
     }
 
+    @IBOutlet weak var gauge_in: Gauge!
+    @IBOutlet weak var gauge_mid: Gauge!
+    @IBOutlet weak var gauge_out: Gauge!
+    
+    @IBAction func changeColor(sender: UISlider) {
+        gauge_in.rate = CGFloat(sender.value * 4)
+        gauge_mid.rate = CGFloat(sender.value * 8)
+        gauge_out.rate = CGFloat(sender.value * 12)
+    }
+    
     @IBOutlet weak var washletDetail: LTMorphingLabel!
     
     var appDelegate:AppDelegate = UIApplication.sharedApplication().delegate as! AppDelegate
